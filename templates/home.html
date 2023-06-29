@@ -15,6 +15,8 @@
     </style>
   </head>
   <body>
+
+    {% include 'nav.html' %}
     <div class="container">
     
   <h1 class="text-center mt-1 mb-4 fst-italic"> {{company_name}} Careers</h1>
@@ -34,11 +36,9 @@ Mathify is a cutting-edge educational platform revolutionizing the way students 
     </div>
     <div class="text-center">
     <button class="btn btn-primary btn-lg"> Contact Us</button> 
-      <footer class="mt-4 lead mb-2" >
-        Copyright 2023 Mathify
-      </footer>
     </div>
     </div>
+     {% include 'footer.html' %}
   </body>
   
 </html>
